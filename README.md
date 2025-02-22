@@ -20,7 +20,7 @@ Prerequisites
 
 -   **Rust Toolchain:** Ensure you have the latest stable version of [Rust](https://www.rust-lang.org/tools/install).
 -   **Solana CLI:** Install the [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools) for local node management and additional utilities.
--   **Node Access:** A running Solana node or access to a remote RPC endpoint (e.g., Devnet or Testnet). The sample code uses a local URL (`http://10.190.41.37:8899`).
+-   **Node Access:** A running Solana node or access to a remote RPC endpoint (e.g., Devnet or Testnet).
 
 Installation
 ------------
