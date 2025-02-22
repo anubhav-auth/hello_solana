@@ -10,9 +10,9 @@ use std::str::FromStr;
 
 #[tokio::main]
 async fn main() {
-    let program_id = Pubkey::from_str("8AFi1JPrEBocFLMDbXaDN8fp4DqiC2uFf5nFQsakVGxi").unwrap();
+    let program_id = Pubkey::from_str("<programid>").unwrap();
 
-    let rpc_url = String::from("http://10.190.41.37:8899");
+    let rpc_url = String::from("<rpcc url>");
     let client = RpcClient::new_with_commitment(rpc_url, CommitmentConfig::confirmed());
 
     let payer = Keypair::new();
